@@ -19,9 +19,10 @@
                     <p>User: {{tasks.user}}</p>
             </div>
         </div>
+        <div class="a111">
             <a style="width: 50 px; height: 30px;margin-top: 50px" href="{% url 'get_all' %}">Menu</a>
             <a href="http://127.0.0.1:8000/delete/{{tasks.id}}">Delete</a>
             <a href="http://127.0.0.1:8000/update/{{tasks.id}}">Update</a>
-    
+        </div>
 </body>
 </html>

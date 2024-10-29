@@ -71,19 +71,28 @@ a {
     background-color: #5cb85c;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
 }
 
 /* Рангҳои пайвандҳо */
 a[href*="delete"] {
     background-color: #d9534f;
+    margin-top: 50px;
 }
 
 a[href*="update"] {
     background-color: #5bc0de;
+    margin-top: 50px;
+
 }
 
 /* Эффекти hover барои пайвандҳо */
 a:hover {
     transform: scale(1.05);
     background-color: #444;
+}
+
+.a111{
+    display: flex;
+    /* align-items: center; */
 }
